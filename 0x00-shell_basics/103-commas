@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap | awk 'BEGIN{ORS=","} /^[A-Za-z0-9]/ || /^\.+\// {print}' | sed 's/,$/\n/'
+ls -ap | tr '\n' ','
