@@ -1,0 +1,3 @@
+#!/bin/bash
+#A script showing the Pid with Bash only
+ps auxf | grep bash
