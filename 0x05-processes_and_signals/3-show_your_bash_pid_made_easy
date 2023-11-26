@@ -1,0 +1,3 @@
+#!/bin/bash
+#A process showing the processes running withe their names
+pgrep -l bash
